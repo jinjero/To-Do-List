@@ -1,0 +1,16 @@
+.modify {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  color: #686868;
+  right: 8%;
+  font-weight: bold;
+}
+
+.modify:hover {
+  color: #ea6500;
+}

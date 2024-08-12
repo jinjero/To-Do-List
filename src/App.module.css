@@ -1,0 +1,45 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Background */
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 38%;
+  background-color: rgba(188, 204, 188, 0.456); /* 투명도 조절된 배경 색상 */
+  background-blend-mode: overlay;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin-top: 60px;
+}
+
+/* Header */
+h1 {
+  background: linear-gradient(to right, #f3a257, #f8b98c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #5a5a5a;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+/* line */
+hr {
+  width: 40%;
+  border: none;
+  height: 1px;
+  background-color: rgba(54, 54, 54, 0.49);
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
