@@ -28,6 +28,10 @@ li {
   position: relative;
 }
 
+.checkInput:hover {
+  border: 2px solid #f89346;
+}
+
 .checkInput:checked {
   border: 2px solid #474747;
 }
